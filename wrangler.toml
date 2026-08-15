@@ -1,0 +1,11 @@
+name = "finance-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[vars]
+# Default provider order: groq, openrouter
+PARSER_PROVIDER_ORDER = "groq,openrouter"
+HMAC_SECRET = ""
+
+[ai]
+binding = "AI"
